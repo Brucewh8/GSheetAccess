@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation    A Robot can read or write a Google spreadsheet Document.
-Library    RPA.Cloud.Google    obocloud_vault_name=GoogleSheet
+Library    RPA.Cloud.Google    robocloud_vault_name=GoogleSheet
 ...    robocloud_vault_secret_key=service_account
 Suite Setup    Init Sheets Client    use_robocloud_vault=True
 
